@@ -1,0 +1,240 @@
+<html>
+<head>
+    <title>propil Instagram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .header .left-icons, .header .right-icons {
+            display: flex;
+            align-items: center;
+        }
+        .header .left-icons i, .header .right-icons i {
+            margin-right: 15px;
+            font-size: 20px;
+        }
+        .header .right-icons i {
+            position: relative;
+        }
+        .header .right-icons .notification {
+            position: absolute;
+            top: -5px;
+            right: -10px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            padding: 2px 5px;
+            font-size: 12px;
+        }
+        .profile {
+            text-align: center;
+            padding: 20px;
+        }
+        .profile img {
+            border-radius: 50%;
+            border: 2px solid #ddd;
+            width: 100px;
+            height: 100px;
+        }
+        .profile .username {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .profile .stats {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .profile .stats div {
+            margin: 0 15px;
+            text-align: center;
+        }
+        .profile .stats div span {
+            display: block;
+            font-weight: bold;
+        }
+        .profile .bio {
+            margin: 10px 0;
+        }
+        .profile .bio a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .profile .bio a:hover {
+            text-decoration: underline;
+        }
+        .profile .audio {
+            margin: 10px 0;
+        }
+        .profile .audio i {
+            margin-right: 5px;
+        }
+        .profile .professional-dashboard {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .profile .actions {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 0;
+        }
+        .profile .actions button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ddd;
+            cursor: pointer;
+        }
+        .profile .actions button:hover {
+            background-color: #ccc;
+        }
+        .highlights {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .highlights .highlight {
+            text-align: center;
+        }
+        .highlights .highlight img {
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            border: 2px solid #ddd;
+        }
+        .highlights .highlight span {
+            display: block;
+            margin-top: 5px;
+        }
+        .posts {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+        .posts .post {
+            width: 30%;
+            margin-bottom: 10px;
+        }
+        .posts .post img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            border-top: 1px solid #ddd;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #fff;
+        }
+        .footer i {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="left-icons">
+            <i class="fas fa-arrow-left"></i>
+        </div>
+        <div class="right-icons">
+            <i class="fas fa-bell"><span class="notification">9+</span></i>
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    <div class="profile">
+        <img src="propil.jpg" alt="Profile picture of a cartoon character">
+        <div class="username">aziz_hbsy <i class="fas fa-caret-down"></i></div>
+        <div class="stats">
+            <div>
+                <span>4</span>
+                postingan
+            </div>
+            <div>
+                <span>729</span>
+                pengikut
+            </div>
+            <div>
+                <span>77</span>
+                mengikuti
+            </div>
+        </div>
+        <div class="bio">
+            neto<br>
+            <a href="#">@aziz_hbsy</a><br>
+            Desainer Web<br>
+            "Banyak orang gagal dalam hidup karena tidak menyadari seberapa dekat mereka dengan kesuksesan ketika mereka menyerah." - Thomas Edison.<br>
+            <a href="azizhbsy.github.io/Portofolio-aziz/">azizhbsy.github.io/Portofolio-aziz/</a>
+        </div>
+        <div class="audio">
+            <i class="fas fa-music"></i> My Audio • J Boog
+        </div>
+        <div class="professional-dashboard">
+            Dasbor profesional<br>
+            617 tayangan dalam 30 hari terakhir.
+        </div>
+        <div class="actions">
+            <button>Edit profil</button>
+            <button>Bagikan profil</button>
+            <button>Kontak</button>
+        </div>
+    </div>
+    <div class="highlights">
+        <div class="highlight">
+            <img src="11.jpg" alt="Highlight image 1">
+            <span>mee</span>
+        </div>
+        <div class="highlight">
+            <img src="22.jpg" alt="Highlight image 2">
+            <span>extcn</span>
+        </div>
+        <div class="highlight">
+            <img src="33.jpg" alt="Highlight image 3">
+            <span>wel.py</span>
+        </div>
+        <div class="highlight">
+            <img src="44.jpg" alt="Highlight image 4">
+            <span>Baru</span>
+        </div>
+    </div>
+    <div class="posts">
+        <div class="post">
+            <img src="1.png" alt="Post image 1">
+        </div>
+        <div class="post">
+            <img src="3.JPG" alt="Post image 2">
+        </div>
+        <div class="post">
+            <img src="2.png" alt="Post image 3">
+        </div>
+        <div class="post">
+            <img src="4.jpg" alt="Post image 4">
+        </div>
+    </div>
+    <div class="footer">
+        <i class="fas fa-home"></i>
+        <i class="fas fa-search"></i>
+        <i class="fas fa-plus-square"></i>
+        <i class="fas fa-video"></i>
+        <i class="fas fa-user-circle"></i>
+    </div>
+</body>
+</html>
